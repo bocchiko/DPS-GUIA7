@@ -17,7 +17,7 @@ export default function App() {
   const [modalVisibleplaya, setModalVisibleplaya] = React.useState(false);
 
   return (
-    <SafeAreaView>
+    
       <ScrollView>
         <Modal
           transparent={true}
@@ -135,7 +135,7 @@ export default function App() {
           </View>
         </View>
       </ScrollView>
-    </SafeAreaView>
+    
   );
 }
 
